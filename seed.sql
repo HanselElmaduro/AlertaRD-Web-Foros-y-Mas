@@ -1,0 +1,5 @@
+-- Alerta RD seed is deliberately catalog-only.
+-- The five official opening debates, 32 provinces, categories and initial survey
+-- are seeded idempotently by lib/server/seed.ts on the first API request.
+-- No participants, comments, votes or testimonies are seeded in production.
+-- See sql/demo.sql for opt-in isolated DEMO data.
