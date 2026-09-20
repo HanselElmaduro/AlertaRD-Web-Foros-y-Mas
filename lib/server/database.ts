@@ -1,4 +1,4 @@
-import { runtime } from "./runtime-cloudflare";
+import { runtime } from "./runtime-node";
 export type Row = Record<string, any>;
 export interface Statement {
   sql: string;
